@@ -61,8 +61,8 @@ users.mappy = function(func) {
     })
 }
 
-users.mappy(function(a) {console.log(a.id);
-})
+users.mappy(function(a) {console.log(a.id);})
+users.mappy(function(a) {console.log(a.name);})
 
 const user = {
     firstName: 'John',
@@ -73,3 +73,4 @@ const user = {
 for(let x in user) {
     console.log(`${x} : ${user[x]}`);
 }
+
